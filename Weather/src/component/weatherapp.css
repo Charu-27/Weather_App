@@ -1,0 +1,174 @@
+
+    .container
+    {
+        background-image: url('./image.jpg');
+        background-repeat: no-repeat;
+        background-position: cover;
+        background-size: cover;
+        opacity: 90%;
+        
+        
+    }
+    .search-bar{
+        margin-left: 15rem;
+        margin-top: 1rem;
+        align-self: center;
+        width:60%;
+        height:2rem;
+        background-color: rgb(222, 222, 240);
+        font-size: 1rem;
+        text-align: center;
+    }
+    .heading{
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: cursive;
+    }
+    
+    #location{
+        font-weight:bold ;
+        font-size: 2rem;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        margin-top: 3rem;
+        font-style: oblique;
+    }
+    #day{
+        
+        font-weight:bold ;
+        font-size: 1.3rem;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        margin-top: 0.1rem;
+    
+    }
+    #date{
+        margin-top:0.1rem;
+        text-align: center;
+        font-size: 1.2rem;
+        font-family:'Times New Roman', Times, serif;
+    }
+    #temp{
+        font-weight:bold ;
+        font-size: 1.8rem;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        margin-top: 1rem;
+        font-style: oblique;
+     
+    
+    }
+    #time{
+        font-weight:bold ;
+        font-size: 1.2rem;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        margin-top: 1.5rem;
+    
+    }
+    .background{
+     
+        background-position: absolute;
+        background-repeat: no-repeat;
+    }
+    
+    .detail
+    { margin-top: 1rem;
+      text-align: left;
+     font-size: 1rem;
+     font-family: cursive;
+     justify-content: center;
+     
+    }
+    h2{ margin-top: 5rem;;
+        margin-left: 1rem;
+        font-size: 1.8rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+@media only screen and (max-width: 600px) {
+    .container
+{
+    background-image: url('./image.jpg');
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    opacity: 90%;
+    
+    
+}
+.search-bar{
+    margin-left: 1.6rem;
+    margin-top: 2rem;
+    align-self: center;
+    width:80%;
+    height:2.5rem;
+    background-color: rgb(222, 222, 240);
+    font-size: 1rem;
+}
+.heading{
+    text-align: center;
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+#location{
+    font-weight:bold ;
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 5rem;
+    font-style: oblique;
+}
+#day{
+    
+    font-weight:bold ;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 0.1rem;
+
+}
+#date{
+    margin-top:0.1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family:'Times New Roman', Times, serif;
+}
+#temp{
+    font-weight:bold ;
+    font-size: 1.8rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 1rem;
+    font-style: oblique;
+ 
+
+}
+#time{
+    font-weight:bold ;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 1.5rem;
+
+}
+.background{
+ 
+    background-position: absolute;
+    background-repeat: no-repeat;
+}
+
+.detail
+{ margin-top: 2rem;
+ font-size: 1.2rem;
+ font-family: cursive;
+ text-align: center;
+ 
+}
+h2{ margin-top: 5rem;;
+    margin-left: 1rem;
+    font-size: 1.8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+}
